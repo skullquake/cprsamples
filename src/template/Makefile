@@ -125,6 +125,7 @@ CXXFLAGS+=-O2
 CXXFLAGS+=-I./src
 CXXFLAGS+=-I./src/cpr
 CXXFLAGS+=-I./src/json
+CXXFLAGS+=-I./src/ctpl
 ifneq (,$(findstring djgpp,$(TGT_MACHINE)))
 	CXXFLAGS+=-DENTRYPOINT=\"_appmain\"
 else
